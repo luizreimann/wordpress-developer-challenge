@@ -1,0 +1,30 @@
+.frontpage-highlight{
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        font-size: 80px;
+    }
+    .btn-info{
+        padding: 15px 50px;
+        border: 1px solid $red-primary;
+        border-radius: 3px;
+        background-color: $red-primary;
+        color: white;
+    }
+    .overlay{
+        padding-top: 10em;
+        padding-bottom: 8em;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+.all-content{
+    background-color: #000;
+    color: white;
+    h2{
+        color: $red-primary;
+        font-weight: 700;
+    }
+}

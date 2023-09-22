@@ -1,0 +1,16 @@
+.archive-body{
+    background-color: #000;
+    h1{
+        color: $red-primary;
+        font-weight: bold;
+    }
+    p{
+        font-weight: 300;
+        color: white;
+    }
+    .sticky{
+        position: sticky;
+        left: 0; // Fixa a coluna à esquerda
+        top: 0; // Fixa a coluna no topo da row
+    }
+}

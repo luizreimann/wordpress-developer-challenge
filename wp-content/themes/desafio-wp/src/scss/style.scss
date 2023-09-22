@@ -1,0 +1,15 @@
+body{
+    font-family: 'CircularSpotifyTxT';
+}
+
+// Cores
+$red-primary: #FF0000;
+
+@import 'fonts.scss';
+@import 'models/header.scss';
+@import 'models/footer.scss';
+@import 'pages/frontpage.scss';
+@import 'pages/archive.scss';
+@import 'pages/single.scss';
+@import 'models/cards.scss';
+@import 'responsive.scss';

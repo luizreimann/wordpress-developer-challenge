@@ -1,0 +1,25 @@
+footer{
+    background-color: #121212;
+    padding-top: 5em;
+    padding-bottom: 7em;
+    color: white;
+    font-weight: 300;
+    img{
+        padding-bottom: 1em;
+    }
+}
+.nav-mobile{
+    background-color: rgba(0,0,0,0.95);
+    color: white;
+    padding-top: 1em;
+    a{
+        color: white;
+        font-weight: 300;
+    }
+    .red-text{
+        color: $red-primary;
+    }
+    .red-icon path{
+        fill: $red-primary;
+    }
+}

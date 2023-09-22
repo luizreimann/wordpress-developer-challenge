@@ -1,0 +1,44 @@
+.category-label{
+    background-color: white;
+    color: #5A5A5A;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.duration-label{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.card{
+    background-color: #000;
+    border: none;
+    .cover{
+        height: 400px;
+        overflow: hidden;
+        margin-bottom: 1em;
+        border-radius: 3px;
+        .card-cover{
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            transition: transform 0.3s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+    .reduced-cover{
+        height: 300px;
+    }
+    a{
+        color: white;
+        &:hover + .card-cover{
+            transform: scale(1.1);
+        }
+    }
+}
